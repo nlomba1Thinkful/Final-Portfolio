@@ -93,7 +93,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: crimson;
+  background: black;
 }
 .navbar .max-width {
   display: flex;
@@ -128,7 +128,7 @@ section .title::after {
   color: crimson;
 }
 .navbar.sticky .menu li a:hover {
-  color: #fff;
+  color: crimson;
 }
 
 /* menu btn styling */
@@ -374,16 +374,16 @@ section .title::after {
   width: 90%;
 }
 .skills-content .right .css::before {
-  width: 60%;
+  width: 75%;
 }
 .skills-content .right .js::before {
   width: 80%;
 }
 .skills-content .right .php::before {
-  width: 50%;
+  width: 70%;
 }
 .skills-content .right .mysql::before {
-  width: 70%;
+  width: 85%;
 }
 
 /* teams section styling */
@@ -399,7 +399,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 a {
-  color: red;
+  color: magenta;
 }
 .teams .carousel .card:hover {
   background: grey;
