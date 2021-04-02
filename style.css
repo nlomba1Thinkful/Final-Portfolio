@@ -176,6 +176,7 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
+  filter: grayscale(20%);
 }
 .home .max-width {
   width: 100%;

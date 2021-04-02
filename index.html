@@ -18,7 +18,7 @@
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar">
+    <nav class="navbar max-width">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
@@ -41,11 +41,11 @@
             <div class="max-width">
                 <div class="row">
                     <div class="home-content">
-                        <div class="text-1">Hello, my name is</div>
-                        <h1>
-                            <div class="text-2">Nick Lomba</div>
+                        <h3 class="text-1">Hello, my name is</h3>
+                        <h1 class="text-2">
+                            Nick Lomba
                         </h1>
-                        <div class="text-3">And I'm a <span class="typing"></span></div>
+                        <p class="text-3">And I'm a <span class="typing"></span></p>
                         <a href="#contact">Hire me</a>
                     </div>
                 </div>
@@ -160,46 +160,46 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/Dnd.jpg" alt="Dnd party project">
-                        <div class="text">Dnd Party</div>
+                        <h3 class="text">Dnd Party</h3>
                         <a href="https://github.com/nlomba1Thinkful/DndParty-1">
                             <p>Project's Repo</p>
                         </a>
                         <a href="https://dnd-party-1.vercel.app/">
                             <p>Live App</p>
                             </a>
-                            <h6>
+                                <strong>
                                     Postgres, Express, React, Node - Dungeons and Dragons is the best role-playing game ever and was developed for my fellow RPG players! The app allows parties to meet and coordinate campaigns together.
-                                </h6>
+                                </strong>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/brain.jpg" alt="Fluency language learning project">
-                        <div class="text">Fluency</div>
+                        <h3 class="text">Fluency</h3>
                          <a href="https://github.com/nlomba1Thinkful/Spaced-Repetition-Client-master">
                         <p>Project's Repo</p>
                     </a>
                     <a href="https://spaced-repetition-client-master-7s40q8tnz-nlomba1thinkful.vercel.app/register">
                         <p>Live App</p>
                         </a>
-                        <h6>
+                            <strong>
                             Postgres, Express, React, Node - I would love to learn to speak German. The app teaches you German and is for anyone who loves anything German. (Cars, Chocolate, Ect)
-                            </h6>
+                            </strong>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/trav.jpg" alt="Travelers project">
-                        <div class="text">Traveler</div>
+                        <h3 class="text">Traveler</h3>
                         <a href="https://github.com/nlomba1Thinkful/travelers-client">
                             <p>Project's Repo</p>
                         </a>
                         <a href="https://travelers.vercel.app/">
                             <p>Live App</p>
                         </a>
-                                <h6>
+                                <strong>
                                     Postgres, Express, React, Node - Built for my passion for travel/food and anybody else who shares that same passion. Save locations and points of interest across the U.S. 
-                                </h6>
+                                </strong>
                             </div>
                 </div>
                 <div class="card">
@@ -267,29 +267,29 @@
                     <form class="contact-form" action="https://formspree.io/f/xzbypklo" method="POST">
                         <div class="fields">
                             <div class="field name">
-                               <label id="name" for="name">
-                                   <input type="text" class="fullname" placeholder="Name" required>
-                                </label> 
+                               <label for="name">
+                                   <input type="text" id="name" class="fullname" placeholder="Name" required>
+                               </label> 
                             </div>
                             <div class="field email">
-                                <label id="email" for="email"> 
-                                    <input type="text" class="email-input" name="_replyto" placeholder="Email" required>
+                                <label for="email"> 
+                                    <input type="text" id="email" class="email-input" name="_replyto" placeholder="Email" required>
                                 </label>
                             </div>
                         </div>
                         <div class="field">
-                           <label id="subject" for="subject"> 
-                                <input type="text" class="subject" placeholder="Subject" required>
+                           <label for="subject"> 
+                                <input type="text" id="subject" class="subject" placeholder="Subject" required>
                             </label> 
                         </div>
                         <div class="field textarea">
-                            <label id="message" for="message">
-                                <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                            <label for="message">
+                                <textarea class="message" id="message" cols="30" rows="10" placeholder="Message.."></textarea>
                             </label>
                         </div>
                         <div class="button-area">
-                            <label>    
-                                <button class="send-msg" type="submit" name="send">Send message</button>
+                            <label for="submit">    
+                                <button class="send-msg" id="submit" type="submit" name="send">Send message</button>
                             </label>    
                         </div>
                     </form>
