@@ -401,6 +401,9 @@ section .title::after {
 a {
   color: magenta;
 }
+a:hover {
+  color: skyblue;
+}
 .teams .carousel .card:hover {
   background: grey;
 }
@@ -440,7 +443,7 @@ a {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid white !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -449,7 +452,7 @@ a {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background: white !important;
 }
 
 /* contact section styling */
