@@ -400,7 +400,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 a {
-  color: magenta;
+  color: #940094;
   font-weight: bolder;
 }
 a:hover {
