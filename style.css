@@ -401,7 +401,7 @@ section .title::after {
 }
 a {
   color: magenta;
-  font-weight: bold;
+  font-weight: bolder;
 }
 a:hover {
   color: skyblue;
