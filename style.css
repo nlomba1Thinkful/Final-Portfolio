@@ -400,11 +400,11 @@ section .title::after {
   transition: all 0.3s ease;
 }
 a {
-  color: #940094;
+  color: skyblue;
   font-weight: bolder;
 }
 a:hover {
-  color: skyblue;
+  color: magenta;
 }
 .teams .carousel .card:hover {
   background: grey;
