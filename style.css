@@ -400,12 +400,11 @@ section .title::after {
   transition: all 0.3s ease;
 }
 a {
-  color: red;
+  color: magenta;
   font-weight: bold;
 }
 a:hover {
   color: limegreen;
-  font-style: italic;
 }
 .teams .carousel .card:hover {
   background: grey;
