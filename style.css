@@ -275,7 +275,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what I provide";
+  content: "What I provide";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -315,7 +315,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-  content: "what I know";
+  content: "What I know";
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -400,10 +400,10 @@ section .title::after {
   transition: all 0.3s ease;
 }
 a {
-  color: magenta;
+  color: limegreen;
 }
 a:hover {
-  color: skyblue;
+  color: magenta;
 }
 .teams .carousel .card:hover {
   background: grey;
