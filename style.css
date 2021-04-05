@@ -404,7 +404,7 @@ a {
   font-weight: bold;
 }
 a:hover {
-  color:skyblue;
+  color:green;
 }
 .teams .carousel .card:hover {
   background: grey;
