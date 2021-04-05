@@ -406,6 +406,12 @@ a {
 a:hover {
   color: magenta;
 }
+.c1 {
+  color: magenta;
+}
+.c1:hover {
+    color:skyblue;
+}
 .teams .carousel .card:hover {
   background: grey;
 }
