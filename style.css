@@ -462,6 +462,7 @@ a:hover {
 .owl-dot:hover {
   background: white !important;
 }
+/* This resolved contast issues with added text to owl-dot buttons */
 .owl-dot span {
     visibility: hidden;
     color: white;
