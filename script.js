@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
