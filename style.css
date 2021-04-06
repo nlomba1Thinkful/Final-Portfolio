@@ -462,6 +462,11 @@ a:hover {
 .owl-dot:hover {
   background: white !important;
 }
+.owl-dot span {
+    visibility: hidden;
+    color: white;
+    background: black;
+}
 
 /* contact section styling */
 .contact .title::after {
